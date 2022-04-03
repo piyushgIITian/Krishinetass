@@ -12,6 +12,7 @@ SQLAlchemy = "==1.4.34"
 python-dotenv = "*"
 gunicorn = "*"
 importlib-metadata = "*"
+click = "*"
 
 [dev-packages]
 
