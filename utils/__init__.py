@@ -2,8 +2,8 @@ import os
 from flask import Flask,render_template
 
 app = Flask(__name__)
-app.config['DEBUG'] = True
-app.config['FLASK_ENV'] = "developement"
+app.config['DEBUG'] = False
+app.config['FLASK_ENV'] = "production"
 app.config['FLASK_APP'] = "run.py"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['FLASK_RUN_PORT'] = os.environ.get('PORT') or 5000
