@@ -11,6 +11,7 @@ Flask-SQLAlchemy = "==2.5.1"
 SQLAlchemy = "==1.4.34"
 python-dotenv = "*"
 gunicorn = "*"
+importlib-metadata = "*"
 
 [dev-packages]
 
